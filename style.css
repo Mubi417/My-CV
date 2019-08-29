@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+}
+.the-entire-cv{
+    margin: 0 auto 5em;
+    color: #000;
+    background-color: #fff;
+    max-width: 180mm;
+    font-size: 3.5mm;
+    font-family: Raleway;
+    text-align: justify;
+    line-height: 1.35em;
+}
+.the-entire-cv table {
+    border-collapse: collapse;
+    width: 100%;
+    vertical-align: top;
+}
+.title{
+    font-size: 1.3em;
+    font-weight: bold;
+    margin: 0 0 .5em 0;
+    padding: .1em .3em;
+    font-size: 1.2em;
+}
+h4.title {
+     border-top: .2em solid #bbb;
+     border-bottom: .2em solid #bbb;
+     margin: 1.2em 0 .8em 0;
+     padding: .3em 0;
+}
+.sub {
+    color: #555;
+    font-weight: 300px;
+    font-size: .9em;
+}
+.dates {
+    font-size: .8em;
+    color: #555;
+    margin: 0 0 .5em;
+    font-weight: lighter;
+}
+.cert-title {
+    font-weight: bold;
+}
+
+#profile-img {
+    text-align: center;
+    
+}
+#profile-img > img {
+    border-radius: 50%;
+    width: 120px;
+}
