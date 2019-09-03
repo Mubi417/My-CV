@@ -2,14 +2,17 @@ body {
     margin: 0;
 }
 .the-entire-cv{
-    margin: 0 auto 5em;
+    margin: 1.2em auto 5em;
     color: #000;
     background-color: #fff;
-    max-width: 180mm;
+    max-width: 200mm;
     font-size: 3.5mm;
     font-family: Raleway;
     text-align: justify;
     line-height: 1.35em;
+    border: 1px solid grey;
+    padding: 2em;
+    box-shadow: 1px 10px 20px grey;
 }
 .the-entire-cv table {
     border-collapse: collapse;
