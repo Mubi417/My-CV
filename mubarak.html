@@ -18,7 +18,7 @@
                     <td>
                         <h1>Aderogba Mubarak Olanrewaju</h1>
                     </td>
-                    <td valign="bottom"><p>mubi417@gmail.com<br>08185441918<br>Lugbe, Abuja</p>
+                    <td valign="bottom"><p>mubi417@gmail.com<br>08185441918<br>Lugbe, Abuja<br><a href="#contact-me" id ="contact-me-link">Contact Me</a></p>
                     </td>
                 </tr>
             </table>
@@ -106,8 +106,24 @@
                 <ul>
                     <li>Available on Request</li>
                 </ul>   
-            </section>                          
+            </section> 
+            <section>
+                <h4 class="title" id="contact-me">Contact Me</h4>
+                <form id="contact-form">
+                    <label for="name">Name: <span>*</span><span id = "name-error"></span></label>
+                    <input type="text" id="name" name="name" value="" placeholder="Please enter your Name">
+                    <label for="name">Email:<span>*</span><span id = "email-error"></span></label>
+                    <input type="text" id = "email" name="email" placeholder="Enter email e.g example@example.com" value=""><br>
+                    <label for="name" >Title:</label>
+                    <input type="text" id= "title" name="title" value="" placeholder="Title of message" ><br>
+                    <label for="name">Message:<span>*</span><span id = "message-error"></span></label><br>
+                    <textarea id = "message" type="text" name="message" value="" placeholder="Type your message here" rows="6" required></textarea><br>
+                    <p id="form-success-message"></p>
+                    <button type="submit" name="submit">Submit</button>
+                </form>
+            </section>                         
         </div>  
     </main>
+    <script type="text/javascript" src="script.js"></script>
 </body>
 </html>
