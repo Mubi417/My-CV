@@ -1,5 +1,9 @@
 body {
     margin: 0;
+    font-family:Raleway,Trebuchet MS,sans-serif;
+}
+p, ul {
+    text-align: justify;
 }
 .the-entire-cv{
     margin: 1.2em auto 5em;
@@ -7,8 +11,6 @@ body {
     background-color: #fff;
     max-width: 200mm;
     font-size: 3.5mm;
-    font-family: Raleway;
-    text-align: justify;
     line-height: 1.35em;
     border: 1px solid grey;
     padding: 2em;
@@ -21,10 +23,17 @@ body {
 }
 .title{
     font-size: 1.3em;
-    font-weight: bold;
+    font-weight: bolder;
     margin: 0 0 .5em 0;
     padding: .1em .3em;
     font-size: 1.2em;
+}
+#contact-me-link {
+    text-decoration: none;
+    color: white;
+    background-color: #1a1a1a;
+    padding: 0 .5em;
+
 }
 h4.title {
      border-top: .2em solid #bbb;
@@ -54,4 +63,47 @@ h4.title {
 #profile-img > img {
     border-radius: 50%;
     width: 120px;
+}
+
+label > span {
+    color: red;
+    text-align: left;
+    font-weight: lighter;
+}
+label {
+    font-weight: bold;
+}
+
+input {
+    height: 1.8em;
+    /*width: 300px;*/
+    width: 100%;
+    border-color: #bbb;
+    margin: 0.8em 0;
+}
+input[value] {
+    color: #1a1a1a;
+    font-family: inherit;
+    padding: 0.2em;
+}
+form {
+    font-size: 1.2em;
+}
+#message {
+    width: 100%;
+    margin: 0.8em 0;
+    color: #1a1a1a;
+    font-family: inherit;
+}
+
+button[type=submit] {
+    padding: 1.3em;
+    background-color: #1a1a1a;
+    color: white;
+    font-weight: bold;
+    border: 0;
+    border-radius: 0.5em;
+}
+#form-success-message {
+    color: green;
 }
