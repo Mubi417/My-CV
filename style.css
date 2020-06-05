@@ -28,7 +28,7 @@ p, ul {
     padding: .1em .3em;
     font-size: 1.2em;
 }
-#contact-me-link {
+.contact-me-link {
     text-decoration: none;
     color: white;
     background-color: #1a1a1a;
